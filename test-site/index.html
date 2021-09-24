@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+        img:hover {
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translate(1px, 1px) rotate(0deg);
+            }
+
+            10% {
+                transform: translate(-1px, -2px) rotate(-1deg);
+            }
+
+            20% {
+                transform: translate(-3px, 0px) rotate(1deg);
+            }
+
+            30% {
+                transform: translate(3px, 2px) rotate(0deg);
+            }
+
+            40% {
+                transform: translate(1px, -1px) rotate(1deg);
+            }
+
+            50% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+
+            60% {
+                transform: translate(-3px, 1px) rotate(0deg);
+            }
+
+            70% {
+                transform: translate(3px, 1px) rotate(-1deg);
+            }
+
+            80% {
+                transform: translate(-1px, -1px) rotate(1deg);
+            }
+
+            90% {
+                transform: translate(1px, 2px) rotate(0deg);
+            }
+
+            100% {
+                transform: translate(1px, -2px) rotate(-1deg);
+            }
+        }
+    </style>
+    <title>My test page</title>
+  </head>
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <body>
+      <h1>Ethan's Really Cool Beansite</h1>
+      <img src="images/lincoln.png"
+           alt="Bean Man">
+      <p>Bean Man</p>
+      <a href="https://ongc.hostedrmm.com/">ONGC Support</a>
+      <p>ONGC's 3 thingos</p>
+
+      <ul>
+          <li><strong>Earn Our Stripes</strong></li>
+          <li><strong>Have Eachother's Backs</strong></li>
+          <li><strong>That third one</strong></li>
+      </ul>
+  <button>Change user</button>
+  <script src="scripts/main.js"></script>
+  </body>
+</html> 
